@@ -25,6 +25,7 @@ class ModelResolver implements IModelResolver
     public function resolve($modelClass)
     {
         $model = new $modelClass($this->request);
+        $model->validate();
         return $model;
     }
 }
