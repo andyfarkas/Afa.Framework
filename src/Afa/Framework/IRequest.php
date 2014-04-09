@@ -8,5 +8,5 @@ interface IRequest
      * @param string $key
      * @return mixed
      */
-    public function post($key);
+    public function get($key);
 }
