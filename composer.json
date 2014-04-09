@@ -1,0 +1,6 @@
+{
+    "name": "afa/framework",
+    "autoload": {
+        "psr-4": {"": "src\\"}
+    }
+}
